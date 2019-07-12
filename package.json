@@ -1,0 +1,36 @@
+{
+    "name": "@colonise/automation",
+    "version": "0.0.0",
+    "description": "TODO",
+    "main": "index.js",
+    "typings": "index.d.ts",
+    "files": [
+        "**/*.*"
+    ],
+    "scripts": {
+        "build": "gulp build",
+        "lint": "gulp lint",
+        "test": "gulp test",
+        "coverage": "gulp coverage",
+        "debug": "gulp debug",
+        "distribute": "gulp distribute",
+        "postpublish": "gulp publish"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Colonise/Automation.git"
+    },
+    "keywords": [],
+    "author": "Patrick Stanford",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Colonise/Automation/issues"
+    },
+    "homepage": "https://github.com/Colonise/Automation#readme",
+    "devDependencies": {
+        "@colonise/config": "latest"
+    },
+    "dependencies": {
+        "tslib": "^1.9.3"
+    }
+}
