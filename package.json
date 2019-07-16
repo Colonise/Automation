@@ -28,9 +28,12 @@
     },
     "homepage": "https://github.com/Colonise/Automation#readme",
     "devDependencies": {
-        "@colonise/config": "latest"
+        "@colonise/config": "latest",
+        "@types/glob": "^7.1.1"
     },
     "dependencies": {
+        "@colonise/utilities": "^3.0.0",
+        "glob": "^7.1.4",
         "tslib": "^1.9.3"
     }
 }
